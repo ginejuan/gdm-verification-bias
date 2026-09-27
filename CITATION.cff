@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated article and this software."
+title: "Selective first-trimester testing and early-onset gestational diabetes: analysis and simulation code"
+version: 1.0.0
+date-released: 2026-09-27
+license: MIT
+authors:
+  - family-names: "Fernández Alba"
+    given-names: "Juan Jesús"
+    orcid: "https://orcid.org/0000-0002-7297-6876"
+    affiliation: "University of Cádiz; Hospital Universitario Puerto Real"
+keywords: [gestational diabetes, early-onset, verification bias, prediction model, multiple imputation, simulation]
