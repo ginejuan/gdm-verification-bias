@@ -23,7 +23,7 @@ The simulation is fully reproducible from the code alone.
 | `hupr/cohorte_hupr.py` | Single-centre cohort: early testing (GCT or OGTT < 20 weeks), GDM and timing, eligibility |
 | `hupr/etiquetas.py` | GDM definition from the four OGTT values (NDDG or Carpenter–Coustan thresholds; fasting value of the OGTT itself or, in sensitivity analyses, from other blood tests) |
 | `hupr/sensibilidad_hupr.py` | Analysis set and estimators: uncorrected, restricted, IPW, multiple imputation with persistence and δ-shift |
-| `hupr/final_hupr.py`, `hupr/combinar_ic.py` | Primary single-centre analysis (point estimates with 50 imputations; bootstrap in two chunks of 500) and CIs |
+| `hupr/final_hupr.py`, `hupr/combinar_ic.py` | Primary single-centre analysis (point estimates with 50 imputations; 1000 bootstrap resamples in chunks) and CIs |
 | `hupr/boot_sens.py` | Sensitivity analyses (200 bootstrap resamples each) |
 | `hupr/punto_inflexion.py` | Tipping-point analysis for δ |
 | `hupr/diagnosticos_ipw.py` | IPW weight diagnostics and implied undiagnosed early-onset cases (ESM Table 4) |
